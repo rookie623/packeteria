@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Environments
+.env
+venv/
+.venv/
+
+# Dependency directories
+.idea/
+.vscode/
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# PyCharm files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Miscellaneous
+.DS_Store
+
