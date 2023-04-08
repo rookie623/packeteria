@@ -62,3 +62,8 @@ class ResponsePassword(BaseModel):
 
 class UpdatePassword(BaseModel):
     password: str
+
+
+class UserLogin(BaseModel):
+    username: str
+    password: str

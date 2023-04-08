@@ -45,7 +45,7 @@ def delete_user(user_id: int, db: Session = Depends(get_db)):
 
 
 @router.put("/users/{user_id}", response_model=schemas.ResponsePassword)
-def update_user(user_id: int, updated_user: schemas.UserBase, db: Session = Depends(get_db)):
+def update_password_user(user_id: int, updated_user: schemas.UserBase, db: Session = Depends(get_db)):
     user_query = db.query(models.User).filter(models.User.id == user_id)
     user = user_query.first()
     if user is None:
